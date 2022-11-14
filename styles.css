@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+
+
+
+
+body {
+
+    background-color: rgb(171, 85, 4);
+
+}
+
+
+
+#main-nav {
+    width: 100%;
+    height: 90px;
+    background-image: url(https://media.istockphoto.com/id/1319163336/photo/reflections.jpg?b=1&s=170667a&w=0&k=20&c=v9PZsB1x8P60ptm6-JPD7c-Mq4LgYp-GXt335UO1EFA=);
+    background-position: center;
+    color: whitesmoke;
+    margin-bottom: 5em;
+    border: 0.1em;
+    border-style: solid;
+    border-color: none;
+
+}
+
+#main-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-nav ul li a {
+    padding: 2rem;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    font-size: 30px;
+
+
+
+}
+
+
+
+#main-nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    transition: 0.5s;
+}
+
+.Main-header-titles h1 {
+    font-size: 25pt;
+    display: flex;
+    justify-content: center;
+    color: #ff5a22;
+    font-weight: bold;
+
+
+
+}
+
+.Main-header-titles h2 {
+    font-size: 80pt;
+    display: flex;
+    justify-content: center;
+    margin-top: 20pt;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+
+
+
+}
+
+.Main-header-titles h3 {
+    font-size: 20pt;
+    margin-top: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #ff5a22;
+}
+
+
+.Main-header-titles {
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2021/01/18/beautiful-wallpaper.jpg);
+    padding: 5em;
+    background-size: cover;
+    background-position: center;
+    margin: 3em;
+    border: 0em;
+    border-radius: 50pt;
+    border-style: solid;
+    border-color: none;
+
+
+
+}
+
+.Main-header-titles figure {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.Main-header-titles img {
+    margin-top: 2em;
+    border: 0.2em;
+    border-radius: 50pt;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+
+
+
+#Section1 {
+    padding: 10em;
+    background-color: rgb(70, 48, 8);
+    background-size: cover;
+    border-radius: 20pt;
+    border-style: solid;
+    border: 0.2em;
+    margin: 2em;
+    color: whitesmoke;
+    border-color: white;
+    margin-top: 5em;
+
+
+
+}
+
+#Section1 h4 {
+
+    font-size: 40pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-top: -3em;
+    text-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+
+
+
+
+
+}
+
+#Section1 p {
+    font-size: 20pt;
+}
+
+#Aside {
+    padding: 1em;
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 48, 8);
+    border-radius: 20pt;
+    border-style: solid;
+    border: 0.2em;
+    color: whitesmoke;
+    margin: 2em;
+
+}
+
+
+#section2 {
+    padding: 2em;
+    background-color: rgb(70, 48, 8);
+    background-size: cover;
+    border-radius: 20pt;
+    border-style: solid;
+    border: 0.2em;
+    margin: 2em;
+    color: whitesmoke;
+    border-color: white;
+    margin-top: 5em;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+#section2 main {
+    padding: 1em;
+}
+
+#Contactme h1 {
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+    margin-top: -1em;
+    text-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+#Aboutme h1 {
+    font-size: 50pt;
+    display: flex;
+    justify-content: center;
+    margin-top: -1em;
+    text-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+#section3 {
+    padding: 4em;
+    background-color: rgb(70, 48, 8);
+    background-size: cover;
+    border-radius: 20pt;
+    border-style: solid;
+    border: 0.2em;
+    margin: 2em;
+    color: whitesmoke;
+    border-color: white;
+    margin-top: 5em;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#Image2 {
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+
+#Image2 img {
+    border-radius: 20pt;
+    border-style: solid;
+    border: 1em;
+    border-color: white;
+}
+
+#section3 h2 {
+    font-size: 2em;
+}
+
+#section3 li {
+    margin-top: 1em;
+}
+
+#section3 p {
+    margin-top: 1em;
+}
+
+#Cite {
+    display: flex;
+    justify-content: center;
+}
+
+#Section4 {
+    padding: 4em;
+    background-color: rgb(70, 48, 8);
+    background-size: cover;
+    border-radius: 20pt;
+    border-style: solid;
+    border: 0.2em;
+    color: whitesmoke;
+    border-color: white;
+    font-size: 25px;
+    margin: 2em;
+   
+
+}
+
+form{
+    padding-left: 8em;
+}
+
+
+
+#email {
+
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+    margin-right: -3em;
+}
+
+
+#linkedin {
+    margin-bottom: 1em;
+    margin-right: -3em;
+}
+
+
+#github {
+    margin-bottom: -2em;
+    margin-right: -3em;
+}
+
+#phone {
+    margin-bottom: -5.5em;
+}
+
+#Yourinformation legend
+{
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+
+#FirstName small
+{
+    font-size: 20px;
+    
+}
+
+#email a:hover
+{
+    background-color: rgba(255, 255, 255, 0.25);
+    transition: 0.5s;
+}
+
+
+
